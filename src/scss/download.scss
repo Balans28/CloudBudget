@@ -1,0 +1,43 @@
+.download{
+  padding: 94px 0 95px;
+  background: #ED4C5C;
+&__title{
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+  margin: 25px 0 50px;
+}
+
+  &__col-6{
+    padding: 25px 0 16px;
+    &:nth-child(2){
+      padding: 0;
+    }
+  }
+
+  &__subtitle{
+    margin-bottom: 40px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ffffff;
+  }
+  &__icon{
+    margin-right: 25px;
+  }
+  &__icon img{
+    width: 32px;
+    height: 32px;
+    margin-right: 25px;
+  }
+  &__col-6_second{
+    height: 311px;
+    background:url("../images/download/download img.png") top left/100% 100% no-repeat;;
+  }
+}

@@ -1,0 +1,121 @@
+.header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+
+  &__nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__image {
+    width: 25px;
+    height: 17px;
+  }
+
+  &__logo-1 {
+    margin-left: 28px;
+    display: flex;
+    column-gap: 10px;
+  }
+
+  &__logo {
+    display: flex;
+    column-gap: 10px;
+  }
+
+
+
+  &__title {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__menu {
+    margin: 0 15px 0 15px;
+    display: flex;
+    column-gap: 25px;
+    list-style-type: none;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  &__item {
+    a {
+      font-weight: bold;
+      justify-content: space-between;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #ffffff;
+      transition: 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      &:hover {
+        transition: 0.5s ease-out;
+        transform: scale(1.1);
+        padding: 0 10px;
+        background-color: transparent;
+        color: #000000;
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+  .dd-options.dd-click-off-close {
+    font-family: Lato, sans-serif;
+  }
+
+  &__btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: #ffffff;
+      color: #ca414e;
+    }
+
+    &__langselect {
+      width: 96px;
+      height: 32px;
+      padding-left: 43px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: white;
+    }
+
+    &__logo-burger {
+      display: none;
+    }
+  }
+}

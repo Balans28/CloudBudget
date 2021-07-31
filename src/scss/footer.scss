@@ -1,0 +1,132 @@
+.footer {
+  padding: 85px 0 86px;
+  background: #FAFAFA;
+  box-sizing: border-box;
+
+  &__row {
+
+  }
+
+
+  &__title {
+    padding-bottom: 33px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__subtitle {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+  }
+
+  &__service {
+    padding-bottom: 30px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+  }
+
+  &__services {
+
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+    list-style: none;
+    }
+  &__item-link {
+    color: black;
+    text-decoration: none;
+  }
+
+    &__contacts {
+      list-style: none;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #101010;
+      cursor: pointer;
+
+    }
+
+    &__tel {
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #121212;
+      padding: 11px 0 20px;
+      text-decoration: none;
+    }
+
+    &__num {
+      text-decoration: none;
+    }
+
+    &__get {
+      padding: 0 117px 33px 0;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #101010;
+    }
+
+    &__social {
+      height: 14px;
+      cursor: pointer;
+
+    }
+
+    &__support {
+      padding-bottom: 33px;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #101010;
+      margin-left: 50px;
+    }
+
+    &__foot {
+      padding-top: 141px;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #101010;
+    }
+
+    &__img {
+      padding-left: 50px;
+      width: 220px;
+      height: 32px;
+
+    }
+  }
+
