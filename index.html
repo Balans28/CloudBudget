@@ -31,20 +31,13 @@
                 <li class="header__item"><a href="#home">Sign up</a></li>
             </ul>
             <form class="header__form">
-                <label class="header__langlabel">
-                    <select class="header__langselect" id="demoDefaultSelection">
 
-                        <option value= "0" data-imgsrc="./src/images/header/US - United States/EN.png"
-                                data-imagesrc="./src/images/header/US - United States.png.">EN
-                        </option>
-                        <option value= "1" data-imgsrc="./src/images/header/RU - Russian Federation/RU.png"
-                                data-imagesrc="./src/images/header/RU - Russian Federation.png.">RU
-                        </option>
-                        <option value= "2" data-imgsrc="./src/images/header/KG - Kyrgyzstan/KG.png"
-                                data-imagesrc="./src/images/header/KG - Kyrgyzstan.png.">KG
-                        </option>
-                    </select>
-                </label>
+                <select class="header__lang-select" id="demoDefaultSelection">
+                    <option value="0" data-imagesrc="./src/images/header/EN.png"
+                            class="header__en header__lang" value="#en">EN</option>
+                    <option value="1" data-imagesrc="./src/images/header/RU.png" class="header__ru header__lang" value="#ru">RU</option>
+                    <option value="2" data-imagesrc="./src/images/header/KG.jpg" class="header__kg header__lang" value="#kg">KG</option>
+                </select>
                 <button class="header__btn">Login</button>
             </form>
         </nav>
